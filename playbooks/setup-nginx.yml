@@ -1,5 +1,5 @@
 # setup-nginx.yml
-- hosts: all
+- hosts: localhost
   become: true
   tasks:
     - name: Install nginx
